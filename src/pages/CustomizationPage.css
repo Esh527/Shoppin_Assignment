@@ -1,0 +1,10 @@
+.customization-page {
+    padding: 30px;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+.customization-page h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}

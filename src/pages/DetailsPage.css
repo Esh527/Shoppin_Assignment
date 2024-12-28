@@ -1,0 +1,51 @@
+.details-page {
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.details-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details-image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: rgba(240, 9, 9, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.details-description {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.details-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007aff;
+}
+
+.details-error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+.back-to-home{
+    background-color: #c1d0e0;
+    border-radius: 10px 10px 10px 10px;
+    height: 35px;
+    width: 70px;
+}
+:hover.back-to-home{
+    background-color: rgb(51, 153, 114);
+}

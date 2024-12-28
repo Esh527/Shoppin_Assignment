@@ -1,0 +1,40 @@
+.band-selection {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.band-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.band-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.band-option img {
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.band-option:hover {
+    transform: scale(1.05);
+    border-color: #007aff;
+}
+
+.band-option.selected {
+    border-color: #007aff;
+    background-color: #e6f4ff;
+}
